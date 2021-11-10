@@ -1,0 +1,58 @@
+.tableData{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.tableContainer{
+ 
+ 
+  color: aliceblue;
+}
+.tableInnerScrol{
+  height: 400px;
+  width: 300px;
+   overflow-y: scroll;
+   scrollbar-width:thin;
+  /* scroll-behavior: smooth; */
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 1em
+}
+::-webkit-scrollbar-button {
+  background: #12102d
+}
+::-webkit-scrollbar-track-piece {
+  background: #12102d
+}
+::-webkit-scrollbar-thumb {
+  background: #2c267c
+}
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+.tableInner{
+  /* height: 400px;
+  width: 300px; */
+  /* overflow-y: scroll;
+  scroll-behavior: smooth; */
+  color: aliceblue;
+  background-color: #0D0E21;
+  margin: 4px;
+  padding: 8px;
+}
+.tableHeader{
+  background-color: #12102d;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 15px 15px 0 0;
+}
+.buttonSection{
+  display: flex;
+  justify-content: center;
+margin-top: 10px;
+}
+.buttonSection button{
+  width: 250px;
+}
